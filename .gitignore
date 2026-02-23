@@ -1,0 +1,16 @@
+# 1. Ignore your data folder and the dataset
+data/
+bypass_dataset.csv
+*.csv
+
+# 2. Ignore Python system files (prevents "junk" in your repo)
+__pycache__/
+*.py[cod]
+
+# 3. Ignore virtual environments
+venv/
+.env
+
+# 4. Ignore IDE specific folders
+.vscode/
+.idea/
